@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <title>
+      Symbiographie
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<script>
+var list = [
+'https://scontent.xx.fbcdn.net/v/t31.0-8/14876609_1831761560441247_340323092562804843_o.jpg?oh=448794c3cdeec71667b7f7420a20cd02&oe=5919A48D',
+'https://scontent.xx.fbcdn.net/v/t31.0-8/15732112_1865880733695996_8811025174468775037_o.jpg?oh=d9f9c804e49c8ddd5e35ffcac713f7a0&oe=591C3F8D',
+'https://scontent.xx.fbcdn.net/v/t31.0-8/15626570_1864511460499590_5244956302023378158_o.jpg?oh=b60f2fa9ffbae049cbf81156c85b41dc&oe=58DCDFC7',
+'https://scontent.xx.fbcdn.net/v/t31.0-8/15418480_1860920697525333_7774440465359693938_o.jpg?oh=06ff3ab03ac626646b09954b9eabf01d&oe=591BD68B',
+'https://scontent.xx.fbcdn.net/v/t31.0-8/15493347_1858600741090662_1135376656354194495_o.jpg?oh=6aecc701b914813b51d2289bad6288be&oe=58E6E35E',
+'https://scontent.xx.fbcdn.net/v/t31.0-8/14855977_1828540817429988_2862735245325421057_o.jpg?oh=fd79655203810e8b611d6256bbe4cd64&oe=59123DCB'
+]
+var bgcur = 0
+setInterval(function(){
+  $('body').css('background-image', 'url("'+list[bgcur]+'")')
+  bgcur++
+  if (bgcur == list.length) {
+    bgcur = 0;
+  }
+},23*1000)
+</script>
+
+<style>
+body {
+  background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/14855977_1828540817429988_2862735245325421057_o.jpg?oh=fd79655203810e8b611d6256bbe4cd64&oe=59123DCB");
+  background-color: #lime;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+
+    color: darkgreen;
+}
+a:hover {
+    color: lightgreen;
+  }
+
+.btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: lightgreen;
+    background-color: lightgreen;
+}
+
+a:active {
+    color: lime;
+}
+
+.container {
+
+    color: lightgrey;
+    height: 100%;
+    width: 100%;
+
+}
+.buchen {
+  font-size:40px;
+  background-color: green;
+  hover
+}
+
+.fa {
+  margin-bottom: 9px;
+  font-size:40px;
+}
+
+.halb {
+  opacity: 0.6;
+  background-color: black;
+
+}
+.half {
+  opacity: 0.9;
+
+}
+.unten {
+
+  position: absolute;
+  color: black;
+  bottom: 10px;
+  width: 100%;
+  margin: 5px;
+  background-color: grey;
+}
+</style>
+<div class="container">
+
+  <div class="row">
+      <div class="col-sm-12">
+            <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><b>HoodartzZ</b></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Service <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">TfP-Shooting</a></li>
+          <li><a href="#">Pay-Shots</a></li>
+          <li><a href="#">Familien</a></li>
+          <li><a href="#">Hochzeiten</a></li>
+          <li><a href="#">Sonstige</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallerie <span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="#">Lizenzfreie Bilder</a></li>
+          <li><a href="#">Referenzen</a></li>
+          <li><a href="#">Foto-Gallerie</a></li>
+          <li><a href="#">Video-Gallerie</a></li>
+        </ul>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<h1>Symbiographie</h1>
+<button type"button" class="btn btn-primary btn-lg buchen">Direkt buchen <i class="fa fa-500px"></i></button></p>
+      <br>
+        <div class="row">
+          <div class="col-xs-9 col-sm-9  halb">
+            <p>Der Fotograf, der Apperat, die Symbiose... <br>
+            Hier passiert mehr als nur der Druck!<br><br>
+          <p>Die Symbiose aus Mensch und Elektonik.</p>
+          </div>
+          <div class="col-xs-3 col-sm-3  halb">
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row unten half">
+
+      <div class="col-md-3 col-xs-4 half">
+    <b>Online:</b> <br>
+    <a href=""><i class="fa">&#xf26e;</i></a>
+    <a href=""><i class="fa">&#xf16d;</i></a>
+    <a href=""><i class="fa">&#xf230;</i></a>
+    <a href=""><i class="fa">&#xf2b3;</i></a>
+    <a href=""><i class="fa">&#xf099;</i></a>
+    <a href=""><i class="fa">&#xf1f4;</i></a>
+    <a href=""><i class="fa">&#xf17b;</i></a>
+    <a href=""><i class="fa">&#xf179;</i></a>
+  </div>
+  <div class="col-md-3 col-xs-4 half"><b>Support:</b><br>
+    <a href="tel:+34XXXXXXXXX"><i class="fa">&#xf10b;</i></a>
+    <a href="whatsapp://34XXXXXXXXX"><i class="fa">&#xf232;</i></a>
+    <a href=""><i class="fa">&#xf17e;</i></a>
+    <a href=""><i class="fa">&#xf2ac;</i></a>
+    <a href=""><i class="fa">&#xf1fa;</i></a>
+
+  </div>
+    <div class="col-md-6 col-xs-1 half"><b>Impressum:</b><br>
+      <a href=""><i style="font-size:40px" class="fa">&#xf1f9;</i></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

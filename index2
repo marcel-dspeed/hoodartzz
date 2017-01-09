@@ -1,0 +1,80 @@
+<div class="row">
+  <div class="col-sm-9">
+    Level 1: .col-sm-9
+    <div class="row">
+      <div class="col-xs-8 col-sm-6">
+        Level 2: .col-xs-8 .col-sm-6
+      </div>
+      <div class="col-xs-4 col-sm-6">
+        Level 2: .col-xs-4 .col-sm-6
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-3"><p><h1>Symbiographie</h1></p></div>
+<div class="col-md-3"><br><br><br><p>Der Fotograf, der Apperat, die Symbiose... </p></div>
+<div class="col-md-3"><br><br><br><p>Hier passiert mehr als nur der Druck!</p></div>
+<div class="col-md-3"><br><br><br><p>Die Symbiose aus Mensch und Elektonik.</p></div>
+
+<style>
+body {
+  background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/14918969_1834436826840387_6259588302765437449_o.jpg?oh=e5748dbd37b86e08e2578652776019f1&oe=591B9FB3");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+a {
+    color: white;
+}
+.container {
+
+    color: lightgrey;
+    height: 100%;
+    width: 100%;
+
+}
+.unten {
+  position: absolute;
+  color: white;
+  bottom: 0px;
+  width: 95%;
+  left: 5%;
+}
+</style>
+<div class="container">
+
+  <div class="row">
+      <div class="col-sm-9">
+      <p><h1>Symbiographie</h1></p>
+        <div class="row">
+          <div class="col-xs-8 col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+          </div>
+          <div class="col-xs-4 col-sm-6">
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row jumbotron unten">
+    <div class="row">
+      <div class="col-md-3">
+    <b>Folge uns:</b> <br>
+    <a href=""><i style="font-size:40px" class="fa">&#xf26e;</i></a>
+    <a href=""><i style="font-size:40px" class="fa">&#xf16d;</i></a>
+    <a href=""><i style="font-size:40px" class="fa">&#xf230;</i></a>
+    <a href=""><i style="font-size:40px" class="fa">&#xf2b3;</i></a>
+    <a href=""><i style="font-size:40px" class="fa">&#xf1f4;</i></a>
+    <a href=""><i style="font-size:40px" class="fa">&#xf099;</i></a>
+    <a href=""><i style="font-size:40px" class="fa">&#xf10b;</i></a>
+    <a href=""><i style="font-size:40px" class="fa">&#xf1fa;</i></a>
+  </div>
+    <div class="col-md-9"><b>Impressum</b><br>
+    </div>
+  </div>
+  </div>
+</div>
